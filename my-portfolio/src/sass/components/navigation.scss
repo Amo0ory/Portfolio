@@ -1,0 +1,51 @@
+.user-nav{
+
+   
+    align-self: stretch;
+    display: flex;
+
+    align-items: center;
+    & > *{
+        padding: 0 2rem;
+        cursor: pointer;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    & > *:hover{
+    //    background-color:$grey-dark-3;
+        }
+        &__icon-box{
+            position: relative;
+        }
+        &__icon{
+           
+            height: 2.5rem;
+            width: 2.5rem;
+            fill: $color-primary-light;
+            &:hover{
+                fill: $color-primary-dark;
+            }
+           
+            &-1{
+               animation: moveInRight 2.9s ease-in;
+    
+            }
+            &-2{
+                animation: moveInRight 2.85s ease-in;
+            }
+            &-3{
+                animation: moveInRight 2.75s ease-in;
+            }
+            &-4{
+                animation: moveInRight 2.65s ease-in;
+            }
+            &-5{
+                animation: moveInRight 2.5s ease-in;
+            }
+            &-6{
+                animation: moveInRight 2.35s ease-in;
+            }
+        }
+        
+    }

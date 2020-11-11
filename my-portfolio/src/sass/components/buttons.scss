@@ -1,0 +1,61 @@
+.btn:link,
+.btn:visited{
+
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    // padding: 1.5rem 4rem;
+    border-radius: 100px;
+    transition: all .2s;
+    box-shadow: $shadow-dark-btn;
+   position: relative;
+}
+ 
+.btn__white{
+    background-color:$color-primary;
+    color:#777;
+}
+.btn__small{
+    padding: 1rem .5rem;
+    background-color:$color-primary;
+    color:#777;
+}
+.btn__big{
+    padding: 1.5rem 4rem;
+    background-color:$color-primary;
+    color:#777;
+}
+.btn:hover{
+
+    transform: translateY(-3px);
+}
+.btn:active{
+    transform: translateY(-1px);
+    box-shadow: $shadow-dark-btn-clicked;
+}
+.btn::after{
+    content:"";
+    display: inline-block;
+    height:100%;
+    width:100%;
+    border-radius: 100px;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -10;
+    transition: all .5s;
+
+}
+.btn__white::after{
+    background-color: $color-primary;
+}
+.btn__small::after{
+    background-color: $color-primary;
+}
+.btn__big::after{
+    background-color: $color-primary;
+}
+.btn:hover::after{
+    transform: scaleY(1.6) scaleX(1.4);
+    opacity: 0;
+}

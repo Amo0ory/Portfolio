@@ -1,0 +1,41 @@
+.logo{
+    height:3.25rem;
+    margin-left: 2rem;
+    
+}
+.container{
+    max-width: 120rem;
+    margin:4rem auto;
+    // background-color: red;
+   
+    min-height: 50rem;
+}
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
+    height:4rem;
+    border-bottom: .25rem solid;
+    border-color: $color-primary;
+    
+    
+
+
+}
+
+
+@keyframes moveInRight{
+    0%{
+        // opacity: 0;
+        transform: translateX(-1000px)
+    }
+    80%{
+        transform: translateX(20px);
+    }
+    100%{
+        // opacity: 1;
+        transform: translateX(0)
+    }
+}

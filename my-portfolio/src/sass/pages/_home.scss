@@ -1,0 +1,85 @@
+.container{
+
+    height:100%;
+    width:100%;
+}
+.header{
+
+    height: 20%;
+    width:100%;
+}
+.main{
+    height:60%;
+    width:100%;
+}
+.home-page{
+    color: orangered;
+    background-color: blue;
+}
+
+.section-about{
+    background-color: #fff;
+    padding: 2.5rem 2rem;
+    display: flex;
+    transition: all .2 ease-in;
+    justify-content: space-between;
+    background-image:linear-gradient(to right bottom, 
+                    rgba($blue-light,.8), 
+                    rgba($blue-dark,.8)), 
+    url('../../asset/img/background-image.jpg');
+    // background-color: #2a2a72;
+    
+    background-size: contain;
+    background-position: center;
+    height: 110vh;
+
+    &__quote{
+        display: flex;
+        animation: moveIn 2s ease;
+        align-items: flex-end;
+
+       flex: 0 0 50%;
+    }
+}
+.section-projects{
+
+   position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 3rem;
+    
+
+}
+.section-skills{
+   
+    margin: 2rem 3rem;
+    
+}
+.section-testimonial{
+    margin: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // min-height: 100%;
+}
+// .section__swiper-demo{
+//    display: flex;
+//    justify-content: center;
+//    align-items: center;
+//    min-height: 100%;
+//    background-color: #000;
+// }
+@keyframes moveIn {
+    0%{
+        opacity: 0;
+        transform: translateX(-1000px)
+    }
+    50%{
+
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

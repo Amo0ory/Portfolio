@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <div class ="container">
+      <header class="header">
+        
+        <img src="img/logo.png" alt="Logo" class="logo">
+
+        <nav class="user-nav">
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon user-nav__icon-1" >
+                <use xlink:href="img/sprite.svg#icon-linkedin"></use>
+            </svg>
+          </div>
+
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon user-nav__icon-2">
+                <use xlink:href="img/sprite.svg#icon-github"></use>
+            </svg>
+          </div>
+
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon user-nav__icon-3">
+              <use xlink:href="img/sprite.svg#icon-instagram"></use>
+            </svg>
+          </div>
+          <div class="user-nav__icon-box">
+              <svg class="user-nav__icon user-nav__icon-4">
+                <use xlink:href="img/sprite.svg#icon-facebook2"></use>
+              </svg>
+            </div>
+
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon user-nav__icon-5">
+              <use xlink:href="img/sprite.svg#icon-mail4"></use>
+            </svg>
+          </div>
+
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon user-nav__icon-6">
+              <use xlink:href="img/sprite.svg#icon-phone"></use>
+            </svg>
+          </div>
+        </nav>
+      </header>
+      <main class="main">
+        <section class="section-about">
+            <div class="section-about__about-me-container">
+              
+              <div class="u-margin-bottom-small">
+                  <h1 class="heading-primary">
+                      Hi my name is Amer
+                    </h1>
+              </div>
+              
+    
+                  <h2 class="section-about__about-me ">
+                      Aspiring young engineer seeking wonders in the world of technology,
+                      a self-motivated learner who enjoys going above and beyond 
+                      when it comes to tackling new tasks and learning new skills.
+                      Strong written and verbal communication with effective leadership qualities. 
+                      I have extensive knowledge of programming in different software languages.
+                      Love programming apps that have real-world applications. 
+                  </h2>
+
+            </div>
+            <div class="section-about__quote heading-tertiery">
+                “Don’t limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve.” – Mary Kay Ash            </div>
+           
+
+            
+        </section>
+
+        <section class="section-projects">
+
+          <div class="bg-video">
+            <video class="bg-video__content" autoplay muted loop>
+              <source src="img/Tromeur_Knight1.mp4" type="video/mp4">
+
+            </video>
+          </div>
+
+          <div class="u-margin-bottom-small">
+              <h1 class="heading-primary">
+                  My Projects
+                </h1>
+          </div>
+          <div class="project-content">
+            <div class="project-description">
+              <h1 class="project-description__heading">
+                Meal APP  made with food in mind take a look and enjoy
+               
+              </h1>
+              <p class="project-description__paragraph">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Laborum quas molestias reiciendis aliquid officia ipsa,
+                 enim reprehenderit ipsam at, doloremque facilis qui 
+                 praesentium tenetur consectetur, possimus eum cupiditate ex? 
+                 Voluptatum.
+              </p>
+            </div>
+            <div class="card-container">
+                <div class="project-card">
+                  <img src="img/profile-image.jpg" alt="" class="project-card__photo">
+  
+                  <h2 class="project-card__title">Meal app</h2>
+                  
+                  <ul class="list">
+                    <li class="list__item">JS</li>
+                    <li class="list__item">ReactJS</li>
+                    <li class="list__item">CSS</li>
+                  </ul>
+  
+                  <div class="project-card__btn">
+                    <a href="#"class="btn btn__small">Go To project</a>
+                  </div>
+                </div>        
+              </div>
+          </div>
+         
+          <div class="project-content">
+            <div class="project-description">
+              <h1 class="project-description__heading">
+                Meal APP
+              </h1>
+              <p class="project-description__paragraph">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Laborum quas molestias reiciendis aliquid officia ipsa,
+                 enim reprehenderit ipsam at, doloremque facilis qui 
+                 praesentium tenetur consectetur, possimus eum cupiditate ex? 
+                 Voluptatum.
+              </p>
+            </div>
+            <div class="card-container">
+              <div class="project-card">
+                <img src="img/food.jpeg" alt="" class="project-card__photo">
+
+                <h2 class="project-card__title">Meal app</h2>
+                
+                <ul class="list">
+                  <li class="list__item">JS</li>
+                  <li class="list__item">ReactJS</li>
+                  <li class="list__item">CSS</li>
+                </ul>
+
+                <div class="project-card__btn">
+                  <a href="#"class="btn btn__small">Go To project</a>
+                </div>
+              </div>        
+            </div>
+          </div>
+         
+        </section>
+
+        <section class="section-skills">
+          
+            <div class="u-margin-bottom-small">
+                <h1 class="heading-primary">
+                    My skills
+                  </h1>
+            </div>
+            <div class="skills__container">
+                <div class="skills">
+
+                    <div class="skills__icon-box">
+                        <svg class="skills__icon">
+                          <use xlink:href="img/sprite.svg#icon-css3" ></use>
+                        </svg>
+                    </div>
+                    <h1 class="skills__title">Web Design</h1>
+                    <p class="skills__paragraph">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum iusto,
+                       quis adipisci voluptates consectetur 
+                       quis adipisci voluptates consectetur
+                    </p>
+                </div>
+      
+                <div class="skills">
+                    <!-- <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon user-nav__icon-5">
+                          <use xlink:href="img/sprite.svg#icon-mail4"></use>
+                        </svg>
+                      </div> -->
+                      <div class="skills__icon-box">
+                          <svg class="skills__icon">
+                            <use xlink:href="img/sprite.svg#icon-arduino" ></use>
+                          </svg>
+                      </div>
+                  
+                    <h1 class="skills__title">Embedded programming</h1>
+                    <p class="skills__paragraph">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum iusto,
+                       quis adipisci voluptates consectetur 
+                       quis adipisci voluptates consectetur
+                    </p>
+                </div>
+      
+                <div class="skills">
+                    <!-- <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon user-nav__icon-5">
+                          <use xlink:href="img/sprite.svg#icon-mail4"></use>
+                        </svg>
+                      </div> -->
+                      <div class="skills__icon-box">
+                          <svg class="skills__icon">
+                            <use xlink:href="img/sprite.svg#icon-react" ></use>
+                          </svg>
+                      </div>
+                  
+                    <h1 class="skills__title">Web Development</h1>
+                    <p class="skills__paragraph">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum iusto,
+                       quis adipisci voluptates consectetur 
+                       quis adipisci voluptates consectetur
+                    </p>
+                </div>
+      
+                <div class="skills">
+                    <!-- <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon user-nav__icon-5">
+                          <use xlink:href="img/sprite.svg#icon-mail4"></use>
+                        </svg>
+                      </div> -->
+                      <div class="skills__icon-box">
+                          <svg class="skills__icon">
+                            <use xlink:href="img/sprite.svg#icon-android" ></use>
+                          </svg>
+                          <svg class="skills__icon">
+                              <use xlink:href="img/sprite.svg#icon-apple" ></use>
+                            </svg>
+                      </div>
+                  
+                    <h1 class="skills__title">Mobile APP</h1>
+                    <p class="skills__paragraph">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum iusto,
+                       quis adipisci voluptates consectetur 
+                       quis adipisci voluptates consectetur
+                    </p>
+                </div>
+            </div>
+
+         
+        </section>
+
+        <section class="section-testimonial">
+      
+          <div class="u-margin-bottom-small">
+              <h1 class="heading-primary">
+                 Testimonial
+              </h1>
+          </div>
+  
+          <div class="testimonial-container">
+            
+                  <div class="testimonial testimonial-1">
+                    <div class="testimonial__card">
+                        <img src="img/Amer.jpg" alt="Photo" class="testimonial__photo">
+                        <h2 class="testimonial__name-occupation">Chris</h2>
+                        <p class="testimonial__content">
+                          Lorem ipsum dolor sit amet, 
+                          consectetur adipisicing elit. Exercitationem rerum dolores est magnam sunt nobis earum quo delectus, 
+                          beatae necessitatibus debitis libero illo pariatur accusamus
+                           labore veniam adipisci! Consectetur, rem!
+                        </p>
+                    </div>
+                  </div>
+             
+                  <div  class="testimonial testimonial-0">
+                    <div class="testimonial__card">
+                        <img src="img/Amer.jpg" alt="Photo" class="testimonial__photo">
+                        <h2 class="testimonial__name-occupation">Chris</h2>
+                        <p class="testimonial__content">
+                          Lorem ipsum dolor sit amet, 
+                          consectetur adipisicing elit. Exercitationem rerum dolores est magnam sunt nobis earum quo delectus, 
+                          beatae necessitatibus debitis libero illo pariatur accusamus
+                            labore veniam adipisci! Consectetur, rem!
+                        </p>
+                    </div>
+                  </div>
+             
+                  <div class="testimonial testimonial-2">
+                    <div class="testimonial__card">
+                        <img src="img/Amer.jpg" alt="Photo" class="testimonial__photo">
+                        <h2 class="testimonial__name-occupation">Chris</h2>
+                        <p class="testimonial__content">
+                          Lorem ipsum dolor sit amet, 
+                          consectetur adipisicing elit. Exercitationem rerum dolores est magnam sunt nobis earum quo delectus, 
+                          beatae necessitatibus debitis libero illo pariatur accusamus
+                            labore veniam adipisci! Consectetur, rem!
+                        </p>
+                    </div>
+                  </div>
+              
+             
+                 
+          </div>  
+      </section>
+      </main>
+      <!-- <a href="#" class="btn btn__big">Button</a> -->
+    </div>
+
+
+    
+    <footer class="footer">
+
+      <div class="footer__logo-box">
+        <img src="img/logo.png" alt="logo" class="footer__logo">
+      </div>
+  
+      <div class="footer__content">
+          <div class="footer__navigation">
+              <ul class="footer__list">
+                <li class="footer_item"><a href="#" class="footer__link">Name</a></li>
+                <li class="footer_item"><a href="#" class="footer__link">Name</a></li>
+                <li class="footer_item"><a href="#" class="footer__link">name</a></li>
+              </ul>
+          </div>
+
+            <p class="footer__copy-right">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Laudantium esse quam accusantium amet animi laboriosam repellendus dolore, 
+                id eos unde in corrupti,
+                alias ullam rerum eveniet excepturi at voluptatibus exercitationem.
+            </p>
+      </div>
+     
+
+     
+    </footer>
+
+  
+    
+    <div id="root"></div>
+  </body>
+  
+</html>
