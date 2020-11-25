@@ -32,7 +32,7 @@
     }
     &__navigation{
         width:20%;
-        border-top: 2px solid $color-grey-dark-2;
+        border-top: 2px solid $color-primary-light-1;
         padding-top: 1rem;
     }
     &__list{
@@ -48,13 +48,13 @@
         display: inline-block;
         &:link,
         &:visited{
-            color:$color-grey-light-1;
+            color:$color-primary-light-1;
             text-decoration: none;
             transition: all .3s ease-in;
         }
         &:hover,
         &:active{
-            color:$color-tertiary-light;
+            color:$color-primary-light-1;
             box-shadow:0 1rem 2rem rgba($color-black, .4);
             transform: rotate(5deg) scale(2);
         }
@@ -62,7 +62,7 @@
     }
     &__copy-right{
         width:20%;
-        color:$color-grey-light-1;
+        color:$color-primary-grey;
     }
     
 }

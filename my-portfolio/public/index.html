@@ -13,6 +13,8 @@
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/nep2pco.css">
+    
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" type="image/png" href="img/favicon.png">
     
@@ -47,74 +49,67 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    <div class ="container">
+    <!-- <div class ="container">
       <header class="header">
+        <div class="header__logo">
+          Logo
+        </div>
         
-        <img src="img/logo.png" alt="Logo" class="logo">
-
-        <nav class="user-nav">
-          <div class="user-nav__icon-box">
-            <svg class="user-nav__icon user-nav__icon-1" >
-                <use xlink:href="img/sprite.svg#icon-linkedin"></use>
-            </svg>
-          </div>
-
-          <div class="user-nav__icon-box">
-            <svg class="user-nav__icon user-nav__icon-2">
-                <use xlink:href="img/sprite.svg#icon-github"></use>
-            </svg>
-          </div>
-
-          <div class="user-nav__icon-box">
-            <svg class="user-nav__icon user-nav__icon-3">
-              <use xlink:href="img/sprite.svg#icon-instagram"></use>
-            </svg>
-          </div>
-          <div class="user-nav__icon-box">
-              <svg class="user-nav__icon user-nav__icon-4">
-                <use xlink:href="img/sprite.svg#icon-facebook2"></use>
-              </svg>
-            </div>
-
-          <div class="user-nav__icon-box">
-            <svg class="user-nav__icon user-nav__icon-5">
-              <use xlink:href="img/sprite.svg#icon-mail4"></use>
-            </svg>
-          </div>
-
-          <div class="user-nav__icon-box">
-            <svg class="user-nav__icon user-nav__icon-6">
-              <use xlink:href="img/sprite.svg#icon-phone"></use>
-            </svg>
-          </div>
-        </nav>
+        <div class='header__items'>
+          <a href="#" class="header header__title">Home</a>
+          <a href="#" class="header header__title">Why Me</a>
+          <a href="#" class="header header__title">Blogs</a>
+          <a href="#" class="header header__title">Portfolio</a>
+          <a href="#" class="header header__title">Contact Me</a> 
+        </div>
       </header>
       <main class="main">
         <section class="section-about">
-            <div class="section-about__about-me-container">
-              
-              <div class="u-margin-bottom-small">
-                  <h1 class="heading-primary">
-                      Hi my name is Amer
-                    </h1>
-              </div>
-              
-    
-                  <h2 class="section-about__about-me ">
-                      Aspiring young engineer seeking wonders in the world of technology,
-                      a self-motivated learner who enjoys going above and beyond 
-                      when it comes to tackling new tasks and learning new skills.
-                      Strong written and verbal communication with effective leadership qualities. 
-                      I have extensive knowledge of programming in different software languages.
-                      Love programming apps that have real-world applications. 
-                  </h2>
+          <div class="section-about__left">
+              <h1 class="section-about__greeting u-header-primary-medium">
+                  Hello,
+                </h1>
+                <h1 class="section-about__introduction u-header-primary-medium ">Im am Amer Amer Alomayri</h1>
+                <p class="section-about__passion u-header-primary-medium-small">
+                  Lorem ipsum dolor sit amet, 
+                  consectetur adipisicing elit.
+                   Asperiores 
+                  ipsa non sunt itaque qui laborum eveniet, 
+                  corporis veritatis id quisquam modi 
+                  totam nam laudantium? Accusantium 
+                  ad deleniti corporis perspiciatis qui.
+                  ipsa non sunt itaque qui laborum eveniet, 
+                  corporis veritatis id quisquam modi 
+                  totam nam laudantium? Accusantium 
+                  ad deleniti corporis perspiciatis qui.
+                </p>
 
-            </div>
-            <div class="section-about__quote heading-tertiery">
-                “Don’t limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve.” – Mary Kay Ash            </div>
-           
+                <a href="#"class="section-about__btn btn btn__small">Lets Talk <span>&rarr;</span> </a>
+          </div>
+          <div class="section-about__right"> 
+              Lorem ipsum dolor sit amet, consetetur
+               sadipscing elitr, sed diam nonumy 
+               eirmod tempor invidunt ut labore et 
+               dolore magna aliquyam erat, sed diam 
+               voluptua. At vero eos et accusam 
+          </div>
+        </section>
 
-            
+        <section class="section-whyMe">
+          <div class="section-whyMe__left">
+            <h1 class="section-whyMe__header u-header-primary-large">Why Me</h1>
+            <p class="section-whyMe__paragraph u-header-primary-small">
+              Lorem ipsum dolor sit, 
+              amet consectetur adipisicing elit. 
+              Eius omnis quibusdam ipsum eos voluptas amet officiis
+               illum libero natus, quas fugit et, sint, 
+               dolor fuga molestias perspiciatis. Ullam, 
+              delectus modi.
+            </p>
+          </div>
+          <div class="section-whyMe__right">
+              Hello
+          </div>
         </section>
 
         <section class="section-projects">
@@ -222,11 +217,7 @@
                 </div>
       
                 <div class="skills">
-                    <!-- <div class="user-nav__icon-box">
-                        <svg class="user-nav__icon user-nav__icon-5">
-                          <use xlink:href="img/sprite.svg#icon-mail4"></use>
-                        </svg>
-                      </div> -->
+                   
                       <div class="skills__icon-box">
                           <svg class="skills__icon">
                             <use xlink:href="img/sprite.svg#icon-arduino" ></use>
@@ -247,7 +238,7 @@
                           <use xlink:href="img/sprite.svg#icon-mail4"></use>
                         </svg>
                       </div> -->
-                      <div class="skills__icon-box">
+                      <!-- <div class="skills__icon-box">
                           <svg class="skills__icon">
                             <use xlink:href="img/sprite.svg#icon-react" ></use>
                           </svg>
@@ -261,13 +252,13 @@
                     </p>
                 </div>
       
-                <div class="skills">
+                <div class="skills"> -->
                     <!-- <div class="user-nav__icon-box">
                         <svg class="user-nav__icon user-nav__icon-5">
                           <use xlink:href="img/sprite.svg#icon-mail4"></use>
                         </svg>
                       </div> -->
-                      <div class="skills__icon-box">
+                      <!-- <div class="skills__icon-box">
                           <svg class="skills__icon">
                             <use xlink:href="img/sprite.svg#icon-android" ></use>
                           </svg>
@@ -341,12 +332,12 @@
                  
           </div>  
       </section>
-      </main>
+      </main> -->
       <!-- <a href="#" class="btn btn__big">Button</a> -->
-    </div>
+    <!-- </div> -->
 
 
-    
+<!--     
     <footer class="footer">
 
       <div class="footer__logo-box">
@@ -372,7 +363,7 @@
      
 
      
-    </footer>
+    </footer> --> 
 
   
     

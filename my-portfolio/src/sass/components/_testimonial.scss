@@ -10,7 +10,23 @@
     // transform-style: preserve-3d;
     // animation: animate 20s linear infinite;
 }
+.connect-with-me{
+    color: $color-white;
+}
+.contact-section{
+    width:100%;
+    margin-left: 25rem;
+    font-size: 1.5rem;
+}
+.contact-icons{
+    display: flex;
+   
+    margin: .5rem -.5rem;
+&__items{
+    margin:0 .5rem;
+}
 
+}
 .testimonial{
     display:flex;
     justify-content: space-between;
@@ -23,7 +39,7 @@
     // height:100%;
     // object-fit: cover;
     ///////
-    background-color: white;
+    background-color: $color-white;
     box-shadow: $shadow-dark;
     border-radius: 3px;
     width:40%;
@@ -43,7 +59,7 @@
         left:-1rem; 
         font-size: 35rem;
         font-family: sans-serif;
-        color:$grey-light-2;
+        color:$color-primary-grey-light;
         z-index: 1;
      }
     &__card{
@@ -67,7 +83,7 @@
             left:38rem; 
             font-size: 35rem;
             font-family: sans-serif;
-            color:$grey-light-2;
+            color:$color-primary-grey-light;
             z-index: -10;
         }
     }

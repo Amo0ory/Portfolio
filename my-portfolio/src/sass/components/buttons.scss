@@ -6,27 +6,63 @@
     text-decoration: none;
     // padding: 1.5rem 4rem;
     border-radius: 100px;
-    transition: all .2s;
+    transition: all .4s;
     box-shadow: $shadow-dark-btn;
    position: relative;
 }
- 
+ .p{
+    position: absolute;
+    top: 1.5rem;
+    left: 1rem;
+    font-family: acier-bat-gris, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+ }
+ .project_arrow{
+    top: 1rem;
+    left: 9rem;
+    font-size: 2rem;
+    position: absolute;
+ }
 .btn__white{
-    background-color:$color-primary;
-    color:#777;
+    background-color:$color-primary-dark;
+    color:$color-white;
 }
 .btn__small{
     padding: 1rem .5rem;
-    background-color:$color-primary;
-    color:#777;
+    background-color:$color-primary-dark;
+    color:$color-white;
+   
+}
+.btn__medium{
+    padding: 1.75rem 2.3rem;
+    background-color:$color-primary-dark;
+    color:$color-white;
+    font-size: 1.2rem;
+    width: 12rem;
+    height:4rem;
+}
+
+.github_logo{
+    position: absolute;
+    top:.5rem;
+    left:2rem;
+    margin-left: 4rem;
 }
 .btn__big{
     padding: 1.5rem 4rem;
-    background-color:$color-primary;
-    color:#777;
+    width: 21rem;
+    background-color:$color-primary-dark;
+    color:$color-white;
+}
+span{
+    transition: all .3s;
 }
 .btn:hover{
+    span{
 
+        margin-left: .4rem;
+    }
     transform: translateY(-3px);
 }
 .btn:active{
@@ -47,13 +83,16 @@
 
 }
 .btn__white::after{
-    background-color: $color-primary;
+    background-color: $color-primary-dark;
 }
 .btn__small::after{
-    background-color: $color-primary;
+    background-color: $color-primary-dark;
+}
+.btn__medium::after{
+    background-color: $color-primary-dark;
 }
 .btn__big::after{
-    background-color: $color-primary;
+    background-color: $color-primary-dark;
 }
 .btn:hover::after{
     transform: scaleY(1.6) scaleX(1.4);
