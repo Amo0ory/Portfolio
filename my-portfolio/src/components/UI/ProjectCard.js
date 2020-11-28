@@ -5,7 +5,7 @@ const ProjectCard= props =>{
 
     return(
         <div className="project-card">
-            <img src="img/profile-image.jpg" alt="" className="project-card__photo"/>
+            <img src={`images/${props.image}`} alt="" className="project-card__photo"/>
            
             <h2 className="project-card__title">Meal app</h2>                  
             <ul className="list">

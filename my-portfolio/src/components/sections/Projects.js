@@ -15,18 +15,31 @@ const Projects = props =>{
           </div>
           
           <div className="project-content">
-            <ProjectDescription/>
+
+            <ProjectDescription 
+              title="Meal APP  made with food in mind take a look and enjoy" 
+              description=" Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+              Laborum quas molestias reiciendis aliquid officia ipsa,
+               enim reprehenderit ipsam at, doloremque facilis qui 
+               praesentium tenetur consectetur, possimus eum cupiditate ex? 
+               Voluptatum."/>
             <div className="card-container">
-                <ProjectCard/>
+              <ProjectCard image="pexels-nerfee-mirandilla-3186654.jpg"/>
             </div>   
 
           </div>
          
           <div className="project-content">
             <div className="card-container">
-              <ProjectCard/>      
+              <ProjectCard image="pexels-alexander-isreb-1797428.jpg"/>      
             </div>
-            <ProjectDescription/>
+            <ProjectDescription 
+              title="Meal APP  made with food in mind take a look and enjoy" 
+              description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+              Laborum quas molestias reiciendis aliquid officia ipsa,
+               enim reprehenderit ipsam at, doloremque facilis qui 
+               praesentium tenetur consectetur, possimus eum cupiditate ex? 
+               Voluptatum."/>
           </div>
          
         </div>

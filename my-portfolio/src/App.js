@@ -1,15 +1,25 @@
 import './sass/main.scss';
-import Main from './components/main';
-import Header from './components/header';
-import Footer from './components/footer';
+import Blogs from './components/Pages/Blogs';
+import Home from './components/Pages/Home';
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Main/>
-      <Footer/>
+
+
+      <Router>
+        <Route path="/" component={Home} exact/>
+        <Route path="/blogs" component={Blogs} exact/>
+      </Router>
     </div>
+    
   );
 }
 

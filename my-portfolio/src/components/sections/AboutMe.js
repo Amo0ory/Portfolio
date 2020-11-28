@@ -4,12 +4,18 @@ const AboutMe = props =>{
 
     return(
         <section class="section-about">
+
+        <div>
+          <img src="images/Hero-image1.png" alt="" className="section-about__image" />
+         
+
+        </div>
         <div class="section-about__left">
             <h1 class="section-about__greeting u-header-primary-medium">
                 Hello,
               </h1>
-              <h1 class="section-about__introduction u-header-primary-medium ">Im am Amer Amer Alomayri</h1>
-              <p class="section-about__passion u-header-primary-medium">
+              <h1 class="section-about__introduction u-header-primary-medium ">I am Amer Alomayri</h1>
+              <p class="section-about__passion">
                 Lorem ipsum dolor sit amet, 
                 consectetur adipisicing elit.
                  Asperiores 
