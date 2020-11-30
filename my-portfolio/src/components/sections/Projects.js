@@ -18,28 +18,27 @@ const Projects = props =>{
 
             <ProjectDescription 
               title="Meal APP  made with food in mind take a look and enjoy" 
-              description=" Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-              Laborum quas molestias reiciendis aliquid officia ipsa,
-               enim reprehenderit ipsam at, doloremque facilis qui 
-               praesentium tenetur consectetur, possimus eum cupiditate ex? 
-               Voluptatum."/>
+              description=" Developed a Meals app for listing different meals
+               along with their recipes and implementing redux states and actions and 
+               storing the data in Firebase as the backend"/>
             <div className="card-container">
-              <ProjectCard image="pexels-nerfee-mirandilla-3186654.jpg"/>
+              <ProjectCard 
+              title="Meal app"
+              image="pexels-nerfee-mirandilla-3186654.jpg"/>
             </div>   
 
           </div>
          
           <div className="project-content">
             <div className="card-container">
-              <ProjectCard image="pexels-alexander-isreb-1797428.jpg"/>      
+              <ProjectCard 
+              title="Shopaholic app"
+              image="pexels-alexander-isreb-1797428.jpg"/>      
             </div>
             <ProjectDescription 
-              title="Meal APP  made with food in mind take a look and enjoy" 
-              description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-              Laborum quas molestias reiciendis aliquid officia ipsa,
-               enim reprehenderit ipsam at, doloremque facilis qui 
-               praesentium tenetur consectetur, possimus eum cupiditate ex? 
-               Voluptatum."/>
+              title="Shopaholic app for those who loves online shopping" 
+              description="Developed a Shop app using redux store and firebase 
+              to store and fetch the data online."/>
           </div>
          
         </div>

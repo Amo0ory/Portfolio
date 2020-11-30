@@ -61,8 +61,9 @@
     &__image{
         position: absolute;
         top:7rem;
-        left:43rem;
+        left:55rem;
         height:49rem;
+        //width:30rem;
         z-index: 10;
     }
 }
@@ -97,13 +98,15 @@
     &__paragraph{
         margin-left: 30.3rem;
         margin-top: 10rem;
-        width:40rem;
+        width:47rem;
         color:white;
     }
     &__image{
         position: absolute;
-        top:17rem;
-        left:79rem;
+        top:-1rem;
+        left:34rem;
+        width: 45rem;
+        height: 45rem;
     }
 }
 .section-projects{

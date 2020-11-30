@@ -1,16 +1,13 @@
 import React from 'react';
-
+import Image from '../../asset/images/hien.jpeg';
 const TestimonialCard = props =>{
     return (
     <div className={`testimonial testimonial-${props.card}`}>
         <div class="testimonial__card">
-            <img src="img/Amer.jpg" alt="Photo" class="testimonial__photo"/>
-            <h2 class="testimonial__name-occupation">Chris</h2>
+            <img src={Image} alt="Photo" class="testimonial__photo"/>
+            <h2 class="testimonial__name-occupation">Hien Nguyen</h2>
             <p class="testimonial__content">
-              Lorem ipsum dolor sit amet, 
-              consectetur adipisicing elit. Exercitationem rerum dolores est magnam sunt nobis earum quo delectus, 
-              beatae necessitatibus debitis libero illo pariatur accusamus
-               labore veniam adipisci! Consectetur, rem!
+              {props.text}
             </p>
         </div>
       </div>

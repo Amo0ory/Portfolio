@@ -18,13 +18,31 @@ const Testimonials = props =>{
             </div>
 
             <div class="testimonial-container">
-                <TestimonialCard card={'1'}/>
-                <TestimonialCard card={'0'}/>
-                <TestimonialCard card={'2'}/>
+                <TestimonialCard
+                 text="Lorem ipsum dolor sit amet, 
+                 consectetur adipisicing elit. Exercitationem rerum dolores est magnam sunt nobis earum quo delectus, 
+                 beatae necessitatibus debitis libero illo pariatur accusamus
+                  labore veniam adipisci! Consectetur, rem!"
+                 card={'1'}/>
+                <TestimonialCard 
+                text="I've known Amer for several years and had the opportunity
+                to mentored Amer to develop an application for our service. 
+                During the process, Amer demonstrated willingness to learn, 
+                ability to effectively apply knowledge to practice and commitment teamwork and delivery. 
+                His attitude towards dealing with complex issues and uncertainty is exemplary and Amer is always enthusiastic,
+                genuine and approachable. I commend Amer's capabilities and work ethics 
+               and would recommend him to any organizations and teams."
+                card={'0'}/>
+                <TestimonialCard 
+                text="Lorem ipsum dolor sit amet, 
+                consectetur adipisicing elit. Exercitationem rerum dolores est magnam sunt nobis earum quo delectus, 
+                beatae necessitatibus debitis libero illo pariatur accusamus
+                 labore veniam adipisci! Consectetur, rem!"
+                card={'2'}/>
             </div>
 
-            <div className="contact-section u-margin-top-extra-big">
-                <h1 className="connect-with-me">Conect with me</h1>
+            <div id='connect' className="contact-section u-margin-top-extra-big">
+                <h1 className="connect-with-me">Connect with me</h1>
                 <div className="contact-icons">
                 <a href="https://github.com/Amo0ory?tab=repositories" >
                     <GitHubLogo fill='#1B3140' width={20} className="contact-icons__items"/>

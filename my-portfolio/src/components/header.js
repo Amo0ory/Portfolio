@@ -15,7 +15,7 @@ const Header = props =>{
          
           <Link to="/blogs" className="header header__title">Blogs</Link>
        
-          <a href="#" className="header header__title">Contact Me</a> 
+          <a href="#connect" className="header header__title">Contact Me</a> 
          
         </div>
       </header>
